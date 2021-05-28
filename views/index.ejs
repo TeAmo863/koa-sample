@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <title>ejs demo</title>
+   </head>
+   <body>
+       <h1>ejs 模板示例</h1>
+       <div>
+           <% if (msg) { %>
+               <h2>信息：<%= msg.info %></h2>
+           <% } %>
+       </div>
+       <img src="cloud.png" alt="这是一张通过静态资源路径获取的图片" width="300" />
+   </body>
+</html>
